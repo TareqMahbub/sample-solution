@@ -12,7 +12,7 @@
 git clone git@github.com:TareqMahbub/sample-solution.git
 cd sample-solution
 composer install
-mv .env.example .env
+ren .env.example .env
 php artisan key:generate
 php artisan test
 php artisan make:upper "hello world"
