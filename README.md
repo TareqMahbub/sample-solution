@@ -5,7 +5,7 @@
 - PHP 8.x.x or 7.4.x
 - Composer 2.x.x
 
-### Execute following commands test & confirm
+### Execute following commands to test & confirm
 ```
 git clone git@github.com:TareqMahbub/sample-solution.git
 cd sample-solution
@@ -20,7 +20,7 @@ php artisan artisan make:csv "hello world"
 
 - Docker Desktop
 
-### Execute following commands test & confirm
+### Execute following commands to test & confirm
 ```
 git clone git@github.com:TareqMahbub/sample-solution.git
 cd sample-solution
