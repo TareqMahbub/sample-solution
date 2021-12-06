@@ -4,7 +4,7 @@
 
 - PHP 8.x.x or 7.4.x
 - Composer 2.x.x
-- Git 2.33.x
+- Git 2.x.x
 
 ### Execute following commands to test & confirm
 ```
@@ -21,7 +21,7 @@ php artisan artisan make:csv "hello world"
 ****************************************
 
 - Docker Desktop
-- Git 2.33.x
+- Git 2.x.x
 
 ### Execute following commands to test & confirm
 ```
