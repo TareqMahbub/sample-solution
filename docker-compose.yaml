@@ -1,0 +1,14 @@
+networks:
+  sample_solution_network:
+
+services:
+  artisan:
+    container_name: sample-solution-artisan
+    build:
+      context: .
+      dockerfile: dockerfiles/php.dockerfile
+    volumes:
+      - ./.:/var/www/html
+    entrypoint: ["php", "artisan"]
+    networks:
+      - sample_solution_network
