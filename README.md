@@ -9,6 +9,7 @@
 ```
 git clone git@github.com:TareqMahbub/sample-solution.git
 cd sample-solution
+composer install
 php artisan test
 php artisan artisan make:upper "hello world"
 php artisan artisan make:alternate-case "hello world"
